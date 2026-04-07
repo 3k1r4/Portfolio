@@ -63,6 +63,11 @@
         width: 50vw;
         height: 50vw;
     }
+	  .education, 
+    .education:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
     
     .education .image {
         display: flex;
